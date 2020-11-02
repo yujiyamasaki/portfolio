@@ -1,0 +1,12 @@
+.about {
+    &__content {
+        & + & {
+            margin-top: 50px;
+        }
+    }
+    &__list {
+        list-style-type: decimal;
+        margin-left: 20px;
+    }
+    @media screen and (max-width: 768px) {}
+}

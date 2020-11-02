@@ -1,0 +1,29 @@
+.contact {
+    &__item {
+        & + & {
+            margin-top: 30px;
+        }
+    }
+    &__label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    &__text {
+        width: 100%;
+        & + & {
+            margin-top: 20px;
+        }
+    }
+    &__detail {
+        width: 100%;
+        min-height: 300px;
+        vertical-align: bottom;
+    }
+    &__text,
+    &__detail {
+        padding: 10px;
+    }
+    &__complete {
+        text-align: center;
+    }
+}
